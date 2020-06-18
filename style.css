@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+
+main {
+    height: 480px;
+    width: 320px;
+    background-color: #5a819e;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttons {
+    /* padding-top: 105px; */
+    position: relative;
+    height: 375px;
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+}
+
+.buttons .num {
+    /* padding-right: 50px; */
+    width: 225px;
+    /* margin-right: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.buttons .num [type='button'] {
+    width: 75px;
+    height: 75px;
+    background-color: #6cc2bd;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5a819e;
+    border-radius: 5px;
+}
+
+.buttons .num #zero {
+    width: 150px;
+}
+
+.buttons .opration-btn {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons .opration-btn input[value="+"] {
+    width: 95px;
+    height: 75px;
+}
+
+input[value="C"] {
+    width: 95px;
+    height: 75px;
+    background-color: #f67e7d;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5a819e;
+    border-radius: 5px;
+}
+
+.buttons #opration {
+    background-color: #ffc1a7;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5a819e;
+    border-radius: 5px;
+}
+
+input[value="Enter"] {
+    height: 225px;
+    background-color: #6cc2bd;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5a819e;
+    border-radius: 5px;
+}
+
+main .display {
+    position: relative;
+    width: 310px;
+    height: 95px;
+    background-color: #7d7aa2;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+main .display h1 {
+    text-align: right;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 10px;
+    text-emphasis-color: #ffe5c4;
+}
